@@ -78,7 +78,7 @@ barney_prompts = [
 
 def gen(prompt):
     
-    response = client.completions.create(model="text-davinci-003",  # Specify the model name
+    response = client.completions.create(model="gpt-3.5-turbo-instruct",  # Specify the model name
     prompt=prompt,
     temperature=0.7,
     max_tokens=1000,
