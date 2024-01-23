@@ -11,7 +11,7 @@ from openai import OpenAI
 client = OpenAI(api_key="your key here")
 from openai import OpenAI
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="your key here")
 import time
 import random
 from plyer import notification
